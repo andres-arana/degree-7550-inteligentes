@@ -175,7 +175,7 @@ public class JsonParser {
         }
 
         log.info("Mapping Rows <"+res.size()+">");
-
+        reader.close();
         return res;
 	}
 	
